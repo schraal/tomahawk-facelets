@@ -244,6 +244,12 @@
         </component>
     </tag>
     <tag>
+        <tag-name>panelStack</tag-name>
+        <component>
+            <component-type>org.apache.myfaces.HtmlPanelStack</component-type>
+        </component>
+    </tag>
+    <tag>
         <tag-name>popup</tag-name>
         <component>
             <component-type>org.apache.myfaces.HtmlPopup</component-type>
