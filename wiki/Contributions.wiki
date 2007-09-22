@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#Contributing to this project
 
 = Contributing =
 
@@ -16,5 +16,6 @@ svn diff
 
 And copy the output to the Issue. Thanks!
 
+ 
  
  
