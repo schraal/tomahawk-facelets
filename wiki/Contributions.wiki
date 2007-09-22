@@ -1,4 +1,4 @@
-# Contributing to this project
+#summary Contributing to this project
 
 = Contributing =
 
@@ -16,6 +16,7 @@ svn diff
 
 And copy the output to the Issue. Thanks!
 
+ 
  
  
  
