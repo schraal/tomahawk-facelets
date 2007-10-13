@@ -277,6 +277,13 @@
         </component>
     </tag>
     <tag>
+        <tag-name>schedule</tag-name>
+        <component>
+            <component-type>org.apache.myfaces.Schedule</component-type>
+            <renderer-type>org.apache.myfaces.Schedule</renderer-type>
+        </component>
+    </tag>
+    <tag>
         <tag-name>selectBooleanCheckbox</tag-name>
         <component>
             <component-type>org.apache.myfaces.HtmlSelectBooleanCheckbox</component-type>
