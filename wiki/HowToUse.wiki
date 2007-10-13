@@ -1,4 +1,5 @@
 #summary Instructions to use the library
+#labels Featured
 
 = How to Use =
 
