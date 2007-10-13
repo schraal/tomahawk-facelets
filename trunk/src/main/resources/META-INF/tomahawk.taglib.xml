@@ -277,6 +277,12 @@
         </component>
     </tag>
     <tag>
+      <tag-name>selectItems</tag-name>
+      <component>
+            <component-type>org.apache.myfaces.UISelectItems</component-type>
+        </component>
+    </tag>
+    <tag>
         <tag-name>selectManyCheckbox</tag-name>
         <component>
             <component-type>org.apache.myfaces.HtmlSelectManyCheckbox</component-type>
