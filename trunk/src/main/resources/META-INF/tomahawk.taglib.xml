@@ -52,6 +52,13 @@
         </component>
     </tag>
     <tag>
+        <tag-name>commandNavigation2</tag-name>
+        <component>
+            <component-type>org.apache.myfaces.HtmlCommandNavigation</component-type>
+            <renderer-type>javax.faces.Link</renderer-type>
+        </component>
+    </tag>
+    <tag>
         <tag-name>commandSortHeader</tag-name>
         <component>
             <component-type>org.apache.myfaces.HtmlCommandSortHeader</component-type>
