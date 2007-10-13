@@ -7,9 +7,9 @@
     <name>Tomahawk Facelets Support</name>
 
     <scm>
-        <connection>scm:svn:https://svn.ebi.ac.uk/ebi-faces/extensions/trunk/tomahawk-facelets</connection>
-        <developerConnection>scm:svn:https://svn.ebi.ac.uk/ebi-faces/extensions/trunk/tomahawk-facelets</developerConnection>
-        <url>https://svn.ebi.ac.uk/ebi-faces/extensions/trunk/tomahawk-facelets</url>
+        <connection>scm:svn:https://tomahawk-facelets.googlecode.com/svn/trunk/</connection>
+        <developerConnection>scm:svn:https://tomahawk-facelets.googlecode.com/svn/trunk/</developerConnection>
+        <url>http://tomahawk-facelets.googlecode.com/svn/</url>
     </scm>
 
     <developers>
