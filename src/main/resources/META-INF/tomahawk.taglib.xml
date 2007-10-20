@@ -54,7 +54,7 @@
     <tag>
         <tag-name>commandNavigation2</tag-name>
         <component>
-            <component-type>org.apache.myfaces.HtmlCommandNavigation</component-type>
+            <component-type>org.apache.myfaces.HtmlCommandNavigationItem</component-type>
             <renderer-type>javax.faces.Link</renderer-type>
         </component>
     </tag>
