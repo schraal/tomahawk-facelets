@@ -11,6 +11,9 @@
         <component>
             <component-type>org.apache.myfaces.AliasBean</component-type>
             <renderer-type>org.apache.myfaces.AliasBean</renderer-type>
+            <handler-class>
+                com.google.code.tomahawk.facelets.AliasBeanHandler
+            </handler-class>
         </component>
     </tag>
     <tag>
