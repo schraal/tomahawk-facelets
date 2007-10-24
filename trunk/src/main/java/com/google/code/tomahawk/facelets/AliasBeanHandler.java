@@ -70,5 +70,6 @@ public class AliasBeanHandler extends TagHandler {
         }
 
         parent.getChildren().add(aliasBean);
+        this.nextHandler.apply(ctx,aliasBean);
     }
 }
