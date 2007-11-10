@@ -12,7 +12,7 @@ To use it, just put the tomahawk-facelets.jar into the classpath (e.g. {{{yourAp
 As of now, this library is not present in any maven repository. If you want to use it in your maven builds, just install the jar in your local repository (or in a remote repository) with the following command:
 
 {{{
-mvn install:install-file -Dfile=tomahawk-facelets.jar -DgroupId=com.google.code.tomahawk  -DartifactId=tomahaw-facelets -Dversion=1.1.6 -Dpackaging=jar
+mvn install:install-file -Dfile=tomahawk-facelets.jar -DgroupId=com.google.code.tomahawk  -DartifactId=tomahawk-facelets -Dversion=1.1.6.2 -Dpackaging=jar
 }}}
 
 Change the file and version numbers accordingly.
@@ -23,7 +23,7 @@ Then, to use it in your builds, just include this dependency in your POMs:
 <dependency>
     <groupId>com.google.code.tomahawk</groupId>
     <artifactId>tomahawk-facelets</artifactId>
-    <version>1.1.6</version>
+    <version>1.1.6.2</version>
 </dependency>
 }}}
  
