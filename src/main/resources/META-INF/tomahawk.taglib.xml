@@ -226,6 +226,20 @@
         </component>
     </tag>
     <tag>
+        <tag-name>panelGrid</tag-name>
+        <component>
+            <component-type>org.apache.myfaces.HtmlPanelGrid</component-type>
+            <renderer-type>org.apache.myfaces.Grid</renderer-type>
+        </component>
+    </tag>
+    <tag>
+        <tag-name>panelGroup</tag-name>
+        <component>
+            <component-type>org.apache.myfaces.HtmlPanelGroup</component-type>
+            <renderer-type>org.apache.myfaces.Group</renderer-type>
+        </component>
+    </tag>
+    <tag>
         <tag-name>panelNavigation</tag-name>
         <component>
             <component-type>org.apache.myfaces.HtmlPanelNavigation</component-type>
