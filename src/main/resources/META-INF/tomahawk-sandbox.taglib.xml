@@ -25,8 +25,8 @@
     <tag>
         <tag-name>graphicImageDynamic</tag-name>
         <component>
-            <component-type>org.apache.myfaces.GraphicImageAjax</component-type>
-            <renderer-type>org.apache.myfaces.GraphicImageAjaxRenderer</renderer-type>
+            <component-type>org.apache.myfaces.GraphicImageDynamic</component-type>
+            <renderer-type>org.apache.myfaces.GraphicImageDynamicRenderer</renderer-type>
            <handler-class>
                com.google.code.tomahawk.facelets.GraphicImageDynamicComponentHandler
           </handler-class>
