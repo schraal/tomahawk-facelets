@@ -13,6 +13,24 @@
       </converter>
    </tag>
    <tag>
+      <tag-name>convertDateTime</tag-name>
+      <converter>
+         <converter-id>org.apache.myfaces.custom.convertDateTime.DateTimeConverter</converter-id>
+      </converter>
+   </tag>
+   <tag>
+      <tag-name>convertNumber</tag-name>
+         <converter>
+            <converter-id>org.apache.myfaces.custom.convertNumber.TypedNumberConverter</converter-id>
+         </converter>
+      </tag>
+   <tag>
+      <tag-name>convertStringUtils</tag-name>
+         <converter>
+            <converter-id>org.apache.myfaces.custom.convertStringUtils.StringUtilsConverter</converter-id>
+         </converter>
+   </tag>
+   <tag>
       <tag-name>fieldset</tag-name>
       <component>
          <component-type>org.apache.myfaces.Fieldset</component-type>
@@ -89,6 +107,14 @@
         <tag-name>outputText</tag-name>
         <component>
             <component-type>org.apache.myfaces.HtmlOutputTextFor</component-type>
+        </component>
+    </tag>
+
+    <tag>
+        <tag-name>pprPanelGroup</tag-name>
+        <component>
+            <component-type>org.apache.myfaces.PPRPanelGroup</component-type>
+            <renderer-type>org.apache.myfaces.PPRPanelGroup</renderer-type>
         </component>
     </tag>
 
