@@ -204,6 +204,13 @@
         </component>
     </tag>
     <tag>
+        <tag-name>jsValueSet</tag-name>
+        <component>
+            <component-type>org.apache.myfaces.HtmlJsValueSet</component-type>
+            <renderer-type>org.apache.myfaces.JsValueSet</renderer-type>
+        </component>
+    </tag>
+    <tag>
         <tag-name>message</tag-name>
         <component>
             <component-type>org.apache.myfaces.HtmlMessage</component-type>
