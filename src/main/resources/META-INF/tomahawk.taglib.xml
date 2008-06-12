@@ -97,6 +97,24 @@
         </component>
     </tag>
     <tag>
+        <tag-name>document</tag-name>
+        <component>
+            <component-type>org.apache.myfaces.Document</component-type>
+        </component>
+    </tag>
+    <tag>
+        <tag-name>documentBody</tag-name>
+        <component>
+            <component-type>org.apache.myfaces.DocumentBody</component-type>
+        </component>
+    </tag>
+    <tag>
+        <tag-name>documentHead</tag-name>
+        <component>
+            <component-type>org.apache.myfaces.DocumentHead</component-type>
+        </component>
+    </tag>
+    <tag>
         <tag-name>dojoInitializer</tag-name>
         <component>
             <component-type>org.apache.myfaces.DojoInitializer</component-type>
@@ -411,25 +429,6 @@
         <tag-name>updateActionListener</tag-name>
         <handler-class>com.google.code.tomahawk.facelets.UpdateActionListenerTagHandler</handler-class>
     </tag>
-    <tag>
-        <tag-name>document</tag-name>
-        <component>
-            <component-type>org.apache.myfaces.Document</component-type>
-        </component>
-    </tag>
-    <tag>
-        <tag-name>documentHead</tag-name>
-        <component>
-            <component-type>org.apache.myfaces.DocumentHead</component-type>
-        </component>
-    </tag>
-    <tag>
-        <tag-name>documentBody</tag-name>
-        <component>
-            <component-type>org.apache.myfaces.DocumentBody</component-type>
-        </component>
-    </tag>
-
     <tag>
         <tag-name>validateEmail</tag-name>
         <validator>
