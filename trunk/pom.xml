@@ -22,6 +22,16 @@
         </developer>
     </developers>
 
+    <developers>
+        <developer>
+            <id>hilbert.schraal</id>
+            <name>HIlbert Schraal</name>
+            <email>hilbert@hippe-it.nl</email>
+            <organization>Hippe IT</organization>
+            <timezone>+1</timezone>
+        </developer>
+    </developers>
+
     <licenses>
         <license>
             <name>The Apache Software License, Version 2.0</name>
