@@ -3,7 +3,7 @@
     <groupId>com.google.code.tomahawk</groupId>
     <artifactId>tomahawk-facelets</artifactId>
     <packaging>jar</packaging>
-    <version>1.1.6.3-SNAPSHOT</version>
+    <version>1.1.6.3</version>
     <name>Tomahawk Facelets Support</name>
 
     <scm>
@@ -20,9 +20,6 @@
             <organization>EBI</organization>
             <timezone>0</timezone>
         </developer>
-    </developers>
-
-    <developers>
         <developer>
             <id>hilbert.schraal</id>
             <name>HIlbert Schraal</name>
@@ -43,6 +40,13 @@
     <build>
         <defaultGoal>install</defaultGoal>
         <finalName>${artifactId}-taglib</finalName>
+
+        <extensions>
+            <extension>
+                <groupId>org.jvnet.wagon-svn</groupId>
+                <artifactId>wagon-svn</artifactId>
+            </extension>
+        </extensions>
 
         <pluginManagement>
             <plugins>
@@ -162,16 +166,17 @@
 
     <distributionManagement>
         <repository>
-            <id>ebi-repo</id>
-            <name>EBI Repository</name>
-            <url>scp://localhost/homes/maven/public_html/m2repo</url>
+            <uniqueVersion>false</uniqueVersion>
+            <id>tomahawk-facelets</id>
+            <name>Tomahawk Facelets Snapshots Repository</name>
+            <url>svn:https://tomahawk-facelets.googlecode.com/svn/maven2/repository</url>
         </repository>
 
         <snapshotRepository>
             <uniqueVersion>false</uniqueVersion>
-            <id>ebi-repo-snapshots</id>
-            <name>EBI Snapshots Repository</name>
-            <url>scp://localhost/homes/maven/public_html/m2repo_snapshots</url>
+            <id>tomahawk-facelets-snapshots</id>
+            <name>Tomahawk Facelets Snapshots Repository</name>
+            <url>svn:https://tomahawk-facelets.googlecode.com/svn/maven2/repository_snapshots</url>
         </snapshotRepository>
 
     </distributionManagement>
