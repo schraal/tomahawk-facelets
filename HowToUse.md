@@ -1,0 +1,45 @@
+# How to Use #
+
+Using this library is the simplest way to provide Facelets support to the MyFaces Tomahawk component library.
+
+To use it, just put the tomahawk-facelets.jar into the classpath (e.g. `yourApp/WEB-INF/lib`)
+
+## Maven ##
+
+This library is available via a maven repository. If you want to use it in your maven builds, add the following repository to your pom.xml:
+
+```
+  <repositories>
+    <repository>
+      <releases>
+        <enabled>true</enabled>
+        <updatePolicy>always</updatePolicy>
+        <checksumPolicy>warn</checksumPolicy>
+      </releases>
+      <snapshots>
+        <enabled>false</enabled>
+        <updatePolicy>never</updatePolicy>
+        <checksumPolicy>fail</checksumPolicy>
+      </snapshots>
+      <id>Tomahawk-Facelets</id>
+      <name>Tomahawk-Facelets releases</name>
+      <url>http://tomahawk-facelets.googlecode.com/svn/maven2/repository</url>
+      <layout>default</layout>
+    </repository>
+  </repositories>
+```
+
+Then, to use it in your builds, just include this dependency in your POMs:
+
+```
+<dependency>
+    <groupId>com.google.code.tomahawk</groupId>
+    <artifactId>tomahawk-facelets</artifactId>
+    <version>1.1.6.3</version>
+</dependency>
+```
+
+
+
+
+
