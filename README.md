@@ -1,7 +1,7 @@
 # tomahawk-facelets
 Facelets support for Apache MyFaces Tomahawk
 
-*NOTE:* Facelets support has been integrated into Tomahawk as of version 1.1.7. We advise you to upgrade to at least this version of Tomahawk. This library will no longer be actively maintained. However if someone is still using it and finds a bug we will fix it, when a patch is submitted.
+**NOTE:** Facelets support has been integrated into Tomahawk as of version 1.1.7. We advise you to upgrade to at least this version of Tomahawk. This library will no longer be actively maintained. However if someone is still using it and finds a bug we will fix it, when a patch is submitted.
 
 *NEW:* Maven repository available, see the HowToUse section.
 
